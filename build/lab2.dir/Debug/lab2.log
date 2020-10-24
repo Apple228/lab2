@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/aleks/Documents/GitHub/lab2/source/CMakeLists.txt
+  main.cpp
+C:\Users\aleks\Documents\GitHub\lab2\source\main.cpp(1,10): error C2182: main: недопустимое использование типа "void"
+C:\Users\aleks\Documents\GitHub\lab2\source\main.cpp(2,2): error C2059: синтаксическая ошибка: return
+C:\Users\aleks\Documents\GitHub\lab2\source\main.cpp(3,1): error C2059: синтаксическая ошибка: }
+C:\Users\aleks\Documents\GitHub\lab2\source\main.cpp(3,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"

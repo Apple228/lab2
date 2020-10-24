@@ -1,0 +1,10 @@
+^C:\USERS\ALEKS\DOCUMENTS\GITHUB\LAB2\BUILD\CMAKEFILES\BA78D624F53847534B6BCBED2AAAAC2B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aleks/Documents/GitHub/lab2/source -BC:/Users/aleks/Documents/GitHub/lab2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/aleks/Documents/GitHub/lab2/build/lab2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
