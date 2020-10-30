@@ -3,7 +3,7 @@
 #include <conio.h>
 #include <iomanip>
 #include <iostream>
-
+using namespace std;
 template <class ValType>
 class TVector {
 protected:
@@ -27,11 +27,12 @@ public:
 	//векторные операции
 	TVector operator + (const TVector& v); //сложение
 	TVector operator - (const TVector& v); //вычитание
-	TVector operator* (const TVector& v); //скалярное произведение\
+	ValType operator* (const TVector& v); //скалярное произведение\
 	//ввод-вывод
-	friend istream& operator >> (istream& in, TVector& v) {
-		for (int i = 0; i < v.Size; i++) 
-			in >> v.pTVector[i];
+	friend istream& operator>>(istream& in, TVector& v)
+	{
+		for (int i = 0; i < v.Size; i++)
+			in >> v.pVector[i];
 		return in;
 	}
 	friend ostream& operator<< (ostream& out, const TVector& v) {
@@ -59,7 +60,7 @@ TVector<ValType>::TVector(const TVector<ValType>& v) { //конструктор копирования
 	}
 }
 //template <class ValType>
-//TVectror<ValType>::~Tvector() {
+//virtual ~Tvector() {
 //	delete[] pVector;
 //}
 
@@ -81,4 +82,11 @@ TVector<ValType>& TVector<ValType>::operator=(const TVector& v) {//присваивание
 		}
 	return *this;
 	}
+}
+template <class ValType>
+TVector<ValType> TVector<ValType>::operator+ (const TVector<ValType>& v) {
+	TVector temp(Size, StartIndex);
+	for (int i = 0; i < Size; i++)
+		temp.pVector[i] = pVector[i] + v.pVector[i];
+	return temp;
 }

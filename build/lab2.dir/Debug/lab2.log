@@ -1,15 +1,2 @@
 ﻿  main.cpp
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(30,1): error C2535: TVector<ValType> TVector<ValType>::operator *(const TVector<ValType> &): функция-член уже определена или объявлена
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(26): message : см. объявление "TVector<ValType>::operator *"
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(42): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "TVector<ValType>"
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(32,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(32,1): error C2433: istream: "friend" не разрешается для объявлений данных
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(32,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(32,1): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(37,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(37,1): error C2433: ostream: "friend" не разрешается для объявлений данных
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(37,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(37,1): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(30,1): error C2535: TVector<int> TVector<int>::operator *(const TVector<int> &): функция-член уже определена или объявлена
-C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h(26): message : см. объявление "TVector<int>::operator *"
-C:\Users\aleks\Documents\GitHub\lab2\source\main.cpp(5): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "TVector<int>"
+  lab2.vcxproj -> C:\Users\aleks\Documents\GitHub\lab2\build\Debug\lab2.exe
