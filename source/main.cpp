@@ -17,8 +17,8 @@ void main(){
 		}
 	
 	cout << "Matrix a = " << endl << a << endl;
-	cout << "Matrix b = " << endl << b << endl;
-	
+	//cout << "Matrix b = " << endl << b << endl; 
+	//cout << "Matrix c = " << endl << c+b << endl; // сумму уже не считает
 	cout << "" << endl;
 }
 
