@@ -310,6 +310,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\Users\aleks\Documents\GitHub\lab2\source\main.cpp" />
     <ClInclude Include="C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h" />
+    <ClInclude Include="C:\Users\aleks\Documents\GitHub\lab2\source\matrix.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\aleks\Documents\GitHub\lab2\build\ZERO_CHECK.vcxproj">

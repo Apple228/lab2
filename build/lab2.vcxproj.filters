@@ -9,6 +9,9 @@
     <ClInclude Include="C:\Users\aleks\Documents\GitHub\lab2\source\utmatr4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\aleks\Documents\GitHub\lab2\source\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\aleks\Documents\GitHub\lab2\source\CMakeLists.txt" />
