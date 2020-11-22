@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/aleks/Documents/GitHub/lab2/build/CMakeFiles/googletest"
+		},
+		{
+			"file" : "C:/Users/aleks/Documents/GitHub/lab2/build/CMakeFiles/ba78d624f53847534b6bcbed2aaaac2b/googletest.rule"
+		},
+		{
+			"file" : "C:/Users/aleks/Documents/GitHub/lab2/build/CMakeFiles/3f3ec610683ee28bd9e904e15b13fd24/googletest-complete.rule"
+		},
+		{
+			"file" : "C:/Users/aleks/Documents/GitHub/lab2/build/CMakeFiles/2e179f91fc66714eb63f33bb5bdd4c4a/googletest-install.rule"
+		},
+		{
+			"file" : "C:/Users/aleks/Documents/GitHub/lab2/build/CMakeFiles/2e179f91fc66714eb63f33bb5bdd4c4a/googletest-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/aleks/Documents/GitHub/lab2/build/CMakeFiles/2e179f91fc66714eb63f33bb5bdd4c4a/googletest-download.rule"
+		},
+		{
+			"file" : "C:/Users/aleks/Documents/GitHub/lab2/build/CMakeFiles/2e179f91fc66714eb63f33bb5bdd4c4a/googletest-update.rule"
+		},
+		{
+			"file" : "C:/Users/aleks/Documents/GitHub/lab2/build/CMakeFiles/2e179f91fc66714eb63f33bb5bdd4c4a/googletest-patch.rule"
+		},
+		{
+			"file" : "C:/Users/aleks/Documents/GitHub/lab2/build/CMakeFiles/2e179f91fc66714eb63f33bb5bdd4c4a/googletest-configure.rule"
+		},
+		{
+			"file" : "C:/Users/aleks/Documents/GitHub/lab2/build/CMakeFiles/2e179f91fc66714eb63f33bb5bdd4c4a/googletest-build.rule"
+		},
+		{
+			"file" : "C:/Users/aleks/Documents/GitHub/lab2/build/CMakeFiles/2e179f91fc66714eb63f33bb5bdd4c4a/googletest-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}
